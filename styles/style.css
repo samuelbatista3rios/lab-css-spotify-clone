@@ -4,5 +4,154 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+    /*
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.text h1 h2{
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;*/
+/*
+.barra {
+    position:fixed
+    top: 1;
+    height:80px;
+    width: 100%;
+    background-color: white;
+    text-align: right;
+    border: 1px solid blue;
+
+}
+  
+
+li {
+    display:inline
+    float: left;
+;
+}
+
+/*.nav-bar {
+        height: 50px;
+        margin-bottom: 0px;
+        min-width: 725px;
+        width: 100px;
+        width: 100%;
+}*/
+/*
+.nav-bar ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 10;
+}
+.nav-bar li {
+    list-style:none;
+    float: left;
+    margin: 0 15px;
+}
+.nav-bar {
+    text-decoration: none;
+    color:green
+}
+ul {
+    margin: 10px auto;
+    width: 800px;
+    color: black;
+    list-style: none;
+}
+li {
+    margin-top: 26px;
+    display: inline-block;
+    padding: 0 25px;
+    
+}
+.logo {
+    width:200px;
+    height:40px;
+    margin-top: 20px;
+    margin-left: 30px;
+} */
+
+ /*imagem central*/
+.hero-image {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    width: 100vw;
+    height:75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+/* header */
+header {
+    position: relative;
+    top: 0; /*começa no topo*/
+    height: auto;
+    width:100%;
+}
+/*navbar*/
+nav{
+    position:relative;
+    top:0;
+    height: 100px;
+    width: 100px;
+    background-color: #FFF;
+}
+nav:after {
+    clear: both;
+    content: "";
+    display:block;
+}
+.nav-container {
+    max-width: 1200px;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+#logo {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+.nav-container ul {
+    float: center;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+.nav-container li {
+    list-style: none;
+    float:left;
+    margin: 0 15px;
+}
+.nav-container li a {
+    text-decoration: none;
+    color:black;
+}
+.flexbox {
+    display:flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
